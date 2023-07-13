@@ -738,8 +738,10 @@ extern int __overflow (FILE *, int);
 
 
 # 3 "./main.c"
-int main ( void )
+int main( void )
 {
+
     printf( "Hello, World!\n" );
     return 0;
+
 }
