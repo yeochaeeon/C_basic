@@ -22,7 +22,9 @@ gcc -E ./main.c -o main.i -> main.i 생성
 # [20230710 study]
 
 **scanf("%d", &a);**
+
 ```형식지정자```
+
 <pre>
 %d : 정수형
 %s : 문자열
