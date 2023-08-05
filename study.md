@@ -126,7 +126,7 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 # [20230724]
 ## Codeup - 1060
 
-비트 단위 연산자
+**비트 단위 연산자**
 * 비트단위(bitwise)연산자는, ~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor), <<(bitwise left shift), >>(bitwise right shift) 가 있다. 
  * 예제
    3, 5 를 이진수로 표현 했을 때 겹치는 비트만을 1로 출력하고자 할 때
@@ -139,9 +139,9 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 
 ## Codeup - 1079
 
-* while 안에서의 scanf !!
+* 과제 질문 내용
   
-```Q 내용정리```
+```while 안에서의 scanf ```
 <pre>
 공백을 포함한 입력을 받을때, (ex ; 6 7 0 8 4 5 6)
 while 문안에 scanf("%d" ,&a) 가 있으면 알아서 공백을 기준으로 6 7 0 8 ... 이렇게 돌아가면서 입력값을 처리함 
