@@ -24,7 +24,7 @@ gcc -E ./main.c -o main.i -> main.i 생성
 **scanf("%d", &a);**
 ```형식지정자```
 <pre>
-%d : 형식지정자 : 정수형
+%d : 정수형
 %s : 문자열
 %c : 문자 하나
 %f : 실수형 
@@ -34,19 +34,19 @@ gcc -E ./main.c -o main.i -> main.i 생성
 </pre>
 
 * 정수 타입 (부호가 있는 signed)
- * char :1
- * short :2
- * int :4
- * long :8
- * longlong :8
+  * char :1
+  * short :2
+  * int :4
+  * long :8
+  * longlong :8
 * (부호 없는 unsigned)
- * 앞에 unsigned를 붙여주면 됨
+  * 앞에 unsigned를 붙여주면 됨
 
 
 * 실수
- * float :4 
- * double :8  
- * long double :   
+  * float :4
+  * double :8
+  * long double :   
 ```c
 #include <stdio.h>
 int main()
