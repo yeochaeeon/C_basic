@@ -22,12 +22,17 @@ gcc -E ./main.c -o main.i -> main.i 생성ㄴ
 # [20230710 study]
 
 **scanf("%d", &a);**
-
+```형식지정자```
+<pre>
 %d : 형식지정자 : 정수형
 %s : 문자열
 %c : 문자 하나
 %f : 실수형 
- 
+.
+.
+. 등등등 많음
+</pre>
+
 * 정수 타입 (부호가 있는 signed)
  * char :1
  * short :2
