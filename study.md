@@ -6,7 +6,7 @@ lvim main.o : 이상한 코드가 나옴 (기계어라서 해독 할 수 없음)
 
 ls -alt : 시간순 
 ls -lart : 시간 역순
-gcc -E ./main.c -o main.i -> main.i 생성ㄴ
+gcc -E ./main.c -o main.i -> main.i 생성
 
 
 기계어 코드를 사람이 알아볼 수 있게 일대일 대응 시켜 놓은게 어셈블리어.
