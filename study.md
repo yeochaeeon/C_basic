@@ -27,30 +27,30 @@ gcc -E ./main.c -o main.i -> main.i 생성ㄴ
 
 # [20230710 study]
 
-scanf("%d", &a);
+scanf("%d", &a); <br>
 
-%d : 형식지정자 : 정수형 
-%s : 문자열 
-%c : 문자 하나
-%f : 실수형
+%d : 형식지정자 : 정수형 <br> 
+%s : 문자열 <br>
+%c : 문자 하나 <br>
+%f : 실수형 <br>
+ 
+*정수 타입 (부호가 있는 signed)<br>
+ char 1<br>
+ short 2<br>
+ int 4<br>
+ long 8<br>
+ longlong 8<br>
+ 
+ (부호 없는 unsigned)<br>
+  앞에 unsigned를 붙여주면 됨<br>
 
-정수 타입 (부호가 있는 signed)
-char 1
-short 2
-int 4
-long 8
-longlong 8
 
-(부호 없는 unsigned)
- 앞에 unsigned를 붙여주면 됨
-
-
-실수
-
-float 4 
-double 8  
-long double  
-
+*실수<br>
+ 
+  float 4<br> 
+  double 8  <br>
+  long double  <br>
+```c
 #include <stdio.h>
 int main()
 {
@@ -60,31 +60,33 @@ int main()
 
   return 0;
 }
-위 코드에서 scanf 에만 &을 써주는 이유
+```
+**위 코드에서 scanf 에만 &을 써주는 이유?**
+-> 그런게 있음 뭔지 아는데 쓰기 귀찮다.. 그치만 중요한거라서 질문만 적어두기..
 
-숫자의 범위를 고려하여 자료형을 선택해야한다 
-char 1byte
-short 2byte
-int 4
-long long
-.
-.
-.
+# 숫자의 범위를 고려하여 자료형을 선택해야한다 
+ char 1byte <br>
+ short 2byte<br>
+ int 4<br>
+ long long<br>
+ .
+ .
+ .
 
 
 # [20230710 과제]
 
-중 git push 자꾸 git push 가 안됨
+git push 자꾸 git push 가 안됨
 왜냐 .. local 이랑 remote 랑 다른 내용이 있었는데 그냥 냅다 push 하니까 충돌이 일어난 것..
 push 하기전에 pull 을 해주고 충돌을 없애줬어야 했는데. 그거 안하고 막 푸시함..
 근데 나중에  git pull 을 하니까 얘가 안먹어 .. 
 git pull --rebase 하니까 갑자기 먹으면서 문제해결 
 
-git pull --rebase
- git pull
-git add .
-git commit -m "message"
-git push
+1. git pull --rebase
+2. git pull
+3. git add .
+4. git commit -m "message"
+5. git push
 해결!!!!
 
 
