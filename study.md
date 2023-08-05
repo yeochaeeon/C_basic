@@ -13,42 +13,35 @@ gcc -E ./main.c -o main.i -> main.i 생성ㄴ
 
 # [20230703 assign]
 
-리눅스에서 새 레포만든거 git 에 적용하는 법
-1. git init
+**local 에서 갱신된 내용 repo에 적용하기**
+
 2. git add .
 3. git commit -m " message "
-4. git push
-
-
-리눅스에서 새 파일 만든거 git 에 적용하는 법
-1. git add  file
-2. git commit -m "message"
-3. git push
+4. git pusㅗ
 
 # [20230710 study]
 
 **scanf("%d", &a);**
 
-%d : 형식지정자 : 정수형  
-%s : 문자열 
-%c : 문자 하나 
+%d : 형식지정자 : 정수형
+%s : 문자열
+%c : 문자 하나
 %f : 실수형 
  
-* 정수 타입 (부호가 있는 signed)<br>
-  char 1
-  short 2
-  int 4
-  long 8
-  longlong 8
- 
- (부호 없는 unsigned)
-  앞에 unsigned를 붙여주면 됨
+* 정수 타입 (부호가 있는 signed)
+ * char :1
+ * short :2
+ * int :4
+ * long :8
+ * longlong :8
+* (부호 없는 unsigned)
+ * 앞에 unsigned를 붙여주면 됨
 
 
 * 실수
-  float 4 
-  double 8  
-  long double  
+ * float :4 
+ * double :8  
+ * long double :   
 ```c
 #include <stdio.h>
 int main()
