@@ -27,29 +27,28 @@ gcc -E ./main.c -o main.i -> main.i 생성ㄴ
 
 # [20230710 study]
 
-scanf("%d", &a); <br>
+**scanf("%d", &a);**
 
-%d : 형식지정자 : 정수형 <br> 
-%s : 문자열 <br>
-%c : 문자 하나 <br>
-%f : 실수형 <br>
+%d : 형식지정자 : 정수형  
+%s : 문자열 
+%c : 문자 하나 
+%f : 실수형 
  
-*정수 타입 (부호가 있는 signed)<br>
- char 1<br>
- short 2<br>
- int 4<br>
- long 8<br>
- longlong 8<br>
+* 정수 타입 (부호가 있는 signed)<br>
+  char 1
+  short 2
+  int 4
+  long 8
+  longlong 8
  
- (부호 없는 unsigned)<br>
-  앞에 unsigned를 붙여주면 됨<br>
+ (부호 없는 unsigned)
+  앞에 unsigned를 붙여주면 됨
 
 
-*실수<br>
- 
-  float 4<br> 
-  double 8  <br>
-  long double  <br>
+* 실수
+  float 4 
+  double 8  
+  long double  
 ```c
 #include <stdio.h>
 int main()
@@ -65,16 +64,16 @@ int main()
 -> 그런게 있음 뭔지 아는데 쓰기 귀찮다.. 그치만 중요한거라서 질문만 적어두기..
 
 # 숫자의 범위를 고려하여 자료형을 선택해야한다 
- char 1byte <br>
- short 2byte<br>
- int 4<br>
- long long<br>
+ char 1byte 
+ short 2byte
+ int 4
+ long long
  .
  .
  .
 
 
-# [20230710 과제]
+# [20230710 assign]
 
 git push 자꾸 git push 가 안됨
 왜냐 .. local 이랑 remote 랑 다른 내용이 있었는데 그냥 냅다 push 하니까 충돌이 일어난 것..
@@ -97,7 +96,9 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 
 이 오류에서 포인터의 개념을 배울 수 있다... &a 라는 것은 a라는 변수의 주소를 나타내는 값인데 int 가 아니기 때문에 오류가 뜬다. 
 -> printf 에는 &a 가 아닌 a 를 매개변수로 해야하는 이유이다. 
+![error code](https://github.com/yeochaeeon/C_basic/assets/129289883/a1154a83-e929-4aab-9048-0d2c64cd678c)
 
+![pointer](https://github.com/yeochaeeon/C_basic/assets/129289883/ecb4d26b-5877-4b64-b6e5-3406e571c11a)
 
 
 
