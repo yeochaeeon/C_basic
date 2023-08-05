@@ -133,17 +133,15 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 ## Codeup - 1060
 
 **비트 단위 연산자**
-* 비트단위(bitwise)연산자는,
+* 비트단위(bitwise)연산자는 
 <pre>
- 
  ~ (bitwise not)
  & (bitwise and)
  | (bitwise or)
  ^ (bitwise xor)
  << (bitwise left shift)
  >> (bitwise right shift)
-
- </pre>
+</pre>
   가 있다. 
  * 예제
    3, 5 를 이진수로 표현 했을 때 겹치는 비트만을 1로 출력하고자 할 때
