@@ -1,3 +1,3 @@
-week3.md
+## week3.md
 
 i was absent
