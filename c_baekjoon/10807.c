@@ -3,18 +3,25 @@
 int main()
 {
   int n;
-  int lst;
-  int count=0;
+  int cnt = 0;
   int std;
-  scanf("%d", &n);
-  for (int i=1; i<=n; i++){
-    scanf("%d", &lst);
-    scanf("%d", &std);
-    if(lst == std){
-      count = count +1;
-    }
-    
-  }
-  printf("%d", count);
+  int a[100];
 
+  scanf("%d", &n);
+
+  for (int i=1; i<=n; i++){
+    scanf("%d", &a[i]);
+  }
+  scanf("%d", &std);  
+
+   
+  for (int i=1; i<=n; i++){
+    if (a[i] == std){
+      cnt += 1 ;
+    }
+  }
+
+  printf("%d\n", cnt );
+
+  return 0;
 }
