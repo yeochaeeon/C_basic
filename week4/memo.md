@@ -1,9 +1,14 @@
 ## 배열 입력받을 때 메모리에 어떻게 들어가는가...?
-
+```
 int arr[3]={10,20,30}
 char arr2[5]="abcd"
-문자열의 마지막에는 null값 들어가는 것 주의하긩..
 char arr3[5]={a,b,c,d}
+
+```
+**문자열의 마지막에는 null값이 있다는 것 유의**
+
+
+
 
 ```
 #include <stdio.h>
@@ -13,9 +18,9 @@ int main( void ){
     return 0;
 }
 ```
-* int :
-* main : 
-* void : 
+* int : return type 
+* main : function name
+* void :  parameter
 
 ## 왜 함수를 씀...?
 
