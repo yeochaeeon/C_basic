@@ -132,9 +132,9 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 
 
 # [20230724]
-## Codeup - 1060
+## 비트단위 연산자
+**Codeup - 1060**
 
-**비트 단위 연산자**
 * 비트단위(bitwise)연산자는 
 <pre>
  ~ (bitwise not)
