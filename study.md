@@ -17,9 +17,9 @@
 
 **local 에서 갱신된 내용 repo에 적용하기**
 
-2. git add .
-3. git commit -m " message "
-4. git pusㅗ
+1. git add .
+2. git commit -m " message "
+3. git pusㅗ
 
 # [20230710 study]
 
