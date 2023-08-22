@@ -3,7 +3,7 @@
 * 연산자 우선순위표 참고 => [study.md](https://github.com/yeochaeeon/C_basic/blob/main/study.md)
 
 <details>
-  <summary><code> 1. 하 </code></summary>
+  <summary><code> 연산자 우선순위 예제 </code></summary>
   <div markdown="1">
 	  
 ```c
