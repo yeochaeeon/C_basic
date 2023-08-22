@@ -6,8 +6,9 @@
 * "같은 type 의 값"들이 연속되어서.....저장...? 암튼...
 
 ##  array로 stack을 구현해보자
-<pre>예시 skeleton code</pre>
-
+<details>
+  <summary><code> 예시 skeleton code </code></summary>
+  <div markdown="1">
 ```c
 #include <stdio.h>
 
@@ -15,7 +16,7 @@
 
 // push data to stack
 // data to update : stack, size, top_index
-void push( int new_data, int stack[], int *top_index, int *cur_size )
+voidpush( int new_data, int stack[], int *top_index, int *cur_size )
 {
 	// check that stack is full
 	if ( TODO )
@@ -143,6 +144,7 @@ int main( void )
 	return 0;
 }
 ```
+</details>
 
 ## 구조체 
 ```
