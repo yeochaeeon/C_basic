@@ -132,7 +132,7 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 
 
 # [20230724]
-## *비트단위 연산자
+## * 비트단위 연산자
 **Codeup - 1060**
 
 * 비트단위(bitwise)연산자는 
@@ -151,7 +151,7 @@ git pull --rebase 하니까 갑자기 먹으면서 문제해결
 
 # [20230731]
 
-## *scanf 의 입력방식
+## * scanf 의 입력방식
 **Codeup - 1079**
 
 * 과제 질문 내용
@@ -167,7 +167,7 @@ while( )이런 식으로 되어있으면 입력값 첫번째 값만 가져와서
 
 # [20230821 study]
 
-## 연산자 우선순위
+## * 연산자 우선순위
 
 <img src="https://github.com/yeochaeeon/C_basic/assets/129289883/86dc5a30-49da-4745-b987-c242d025b7fe.png" width="450" height="700"/>
 <img src="https://github.com/yeochaeeon/C_basic/assets/129289883/466a6f39-5e12-493e-9701-1968e223d4e9.png" width="450" height="700"/>
