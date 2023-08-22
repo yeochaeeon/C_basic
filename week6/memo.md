@@ -2,9 +2,30 @@
 * 우선 순위가 같을 때는 오른쪽부터 처리됨
 * 연산자 우선순위표 참고
 
-## 배열
-* "같은 type 의 값"들이 연속되어서.....저장...? 암튼...
+## 배열(array)
+* "같은 type 의 값"들을 index로 관리하는 것.
 
+
+## 포인터 예제 - 출력결과 예상하기
+
+<details>
+  <summary><code> 1. 하 </code></summary>
+  <div markdown="1">
+	```c
+	  
+	   #include <stdio.h>
+	
+	int main( void )
+	{
+		int x = 10;
+		int *p = &x;
+		printf( "%d", *p );
+		return 0;
+	}
+	
+	```
+</details>
+	  
 ##  array로 stack을 구현해보자
 <details>
   <summary><code> 예시 skeleton code </code></summary>
