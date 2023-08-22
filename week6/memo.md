@@ -69,7 +69,7 @@ int main( void )
 </details>
 
 <details>
-  <summary><code> 4.중 </code></summary>
+  <summary><code> 4. 중 </code></summary>
   <div markdown="1">
 	  
 ```c
@@ -111,7 +111,7 @@ int main( void )
 ```
 </details>
 <details>
-  <summary><code> 6.중  </code></summary>
+  <summary><code> 6. 중  </code></summary>
   <div markdown="1">
 	  
 ```c
@@ -135,7 +135,7 @@ int main( void )
 ```
 </details>
 <details>
-  <summary><code> 7.상  </code></summary>
+  <summary><code> 7. 상  </code></summary>
   <div markdown="1">
 	  
 ```c
@@ -158,7 +158,7 @@ int main( void )
 ```
 </details>
 <details>
-  <summary><code> 8.상  </code></summary>
+  <summary><code> 8. 상  </code></summary>
   <div markdown="1">
 	  
 ```c
@@ -201,7 +201,7 @@ int main( void )
 ```
 </details>
 <details>
-  <summary><code> 10.상  </code></summary>
+  <summary><code> 10. 상  </code></summary>
   <div markdown="1">
 	  
 ```c
