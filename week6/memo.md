@@ -26,6 +26,7 @@ int main() {
 
 ```
 </details>
+
 ## 배열(array)
 * "같은 type 의 값"들을 index로 관리하는 것.
 
