@@ -12,19 +12,217 @@
   <summary><code> 1. 하 </code></summary>
   <div markdown="1">
 	  
-	```c
+```c
+  
+#include <stdio.h>
+
+int main( void )
+{
+	int x = 10;
+	int *p = &x;
+	printf( "%d", *p );
+	return 0;
+}
+
+```
+</details>
+
+<details>
+  <summary><code> 2. 하 </code></summary>
+  <div markdown="1">
 	  
-	   #include <stdio.h>
-	
-	int main( void )
-	{
-		int x = 10;
-		int *p = &x;
-		printf( "%d", *p );
-		return 0;
-	}
-	
-	```
+```c
+  
+#include <stdio.h>
+
+int main( void )
+{
+	int x = 10;
+	int y = 20;
+	int *p1 = &x;
+	int *p2 = &y;
+	printf( "%d %d", *p1, *p2 );
+	return 0;
+}
+
+```
+</details>
+
+<details>
+  <summary><code> 3. 하 </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+#include <stdio.h>
+
+int main( void )
+{
+	int x = 10;
+	int *p = &x;
+	*p = 20;
+	printf( "%d", x );
+	return 0;
+}
+
+```
+</details>
+
+<details>
+  <summary><code> 4.중 </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+#include <stdio.h>
+
+void updateValue( int *p )
+{
+	*p = 30;
+}
+
+int main( void )
+{
+	int x = 10;
+	updateValue( &x );
+	printf( "%d", x );
+	return 0;
+}
+
+```
+</details>
+<details>
+  <summary><code> 5. 중 </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+#include <stdio.h>
+
+int main( void )
+{
+    int x = 10;
+    int *p1 = &x;
+    int **p2 = &p1;
+    printf( "%d", **p2 );
+    return 0;
+}
+
+```
+</details>
+<details>
+  <summary><code> 6.중  </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+void swap( int *a, int *b )
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main( void )
+{
+    int x = 10;
+    int y = 20;
+    swap( &x, &y );
+    printf( "%d %d", x, y );
+    return 0;
+}
+
+```
+</details>
+<details>
+  <summary><code> 7.상  </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+void change( int **q )
+{
+    int y = 20;
+    *q = &y;
+}
+
+int main( void )
+{
+    int x = 10;
+    int *p = &x;
+    change( &p );
+    printf( "%d", *p );
+    return 0;
+}
+
+```
+</details>
+<details>
+  <summary><code> 8.상  </code></summary>
+  <div markdown="1">
+	  
+```c
+void update( int **p )
+{
+    int y = 50;
+    *p = &y;
+}
+int main( void )
+{
+    int x = 10;
+    int *p = &x;
+    update( &p );
+    printf( "%d", x );
+    return 0;
+}
+
+```
+</details>
+<details>
+  <summary><code> 9. 상  </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+void update( int **p )
+{
+    int y = 50;
+    *p = &y;
+}
+int main( void )
+{
+    int x = 10;
+    int *p = &x;
+    update( &p );
+    printf( "%d", *p );
+    return 0;
+}
+
+```
+</details>
+<details>
+  <summary><code> 10.상  </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+void modify( int **ptr )
+{
+    int local = 25;
+    *ptr = &local;
+}
+int main( void )
+{
+    int a = 10;
+    int *p = &a;
+    modify( &p );
+
+    printf( "%d", *p );
+
+    return 0;
+}
+
+```
 </details>
 	  
 ##  array로 stack을 구현해보자
