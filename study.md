@@ -169,6 +169,7 @@ while( )이런 식으로 되어있으면 입력값 첫번째 값만 가져와서
 
 ## 연산자 우선순위
 
-![스크린샷 2023-08-22 160616](https://github.com/yeochaeeon/C_basic/assets/129289883/86dc5a30-49da-4745-b987-c242d025b7fe){: width="450" height="800"}
-![스크린샷 2023-08-22 160630](https://github.com/yeochaeeon/C_basic/assets/129289883/466a6f39-5e12-493e-9701-1968e223d4e9){: width="450" height="800"}
+<img src="https://github.com/yeochaeeon/C_basic/assets/129289883/86dc5a30-49da-4745-b987-c242d025b7fe.png" width="450" height="700"/>
+<img src="https://github.com/yeochaeeon/C_basic/assets/129289883/466a6f39-5e12-493e-9701-1968e223d4e9.png" width="450" height="700"/>
+
 
