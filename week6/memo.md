@@ -20,7 +20,7 @@ short s; // 이 구조체 덩어리 전체가 하나의 type 임.
 
 를 선언했을 때 ram에 어떻게 들어갈까?
 
--> i 4바이트 자리를 차지하여 들어가고 그다음 char 1바이트 들어가고 char뒤에 padding 이 생기고 그 뒤에 short 2바이트 들어감.
+<pre> i 4바이트 자리를 차지하여 들어가고 그다음 char 1바이트 들어가고 char뒤에 padding 이 생기고 그 뒤에 short 2바이트 들어감.</pre>
 
 ```
 struct B
@@ -31,7 +31,7 @@ long long l;
 
 }
 ```
--> 일때도 i 4바이트 차지 , 뒤에 padding  4바이트 존재, 그뒤에 l 바이트 차지함.
+<pre>-> 일때도 i 4바이트 차지 , 뒤에 padding  4바이트 존재, 그뒤에 l 바이트 차지함.</pre>
 ```
 struct stack
 {
