@@ -9,7 +9,9 @@
 <details>
   <summary><code> 예시 skeleton code </code></summary>
   <div markdown="1">
+	  
 ```c
+	  
 #include <stdio.h>
 
 #define MAX_STACK_SIZE 100
@@ -145,6 +147,7 @@ int main( void )
 }
 ```
 </details>
+
 
 ## 구조체 
 ```
