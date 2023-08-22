@@ -1,6 +1,31 @@
 ## 연산자 우선순위 처리
 * 우선 순위가 같을 때는 오른쪽부터 처리됨
 * 연산자 우선순위표 참고 => [study.md](https://github.com/yeochaeeon/C_basic/blob/main/study.md)
+
+<details>
+  <summary><code> 1. 하 </code></summary>
+  <div markdown="1">
+	  
+```c
+  
+#include <stdio.h>
+
+int main() {
+    int x = 5;
+    int y;
+
+    y = x++;  // 후위 증가 연산자
+    printf("x: %d, y: %d\n", x, y);  // 출력: x: 6, y: 5
+
+    x = 5;    // x 값을 다시 5로 초기화
+    y = ++x;  // 전위 증가 연산자
+    printf("x: %d, y: %d\n", x, y);  // 출력: x: 6, y: 6
+
+    return 0;
+}
+
+```
+</details>
 ## 배열(array)
 * "같은 type 의 값"들을 index로 관리하는 것.
 
