@@ -1,4 +1,5 @@
 ## 연산자 우선순위 처리
+
 * 우선 순위가 같을 때는 오른쪽부터 처리됨
 * 연산자 우선순위표 참고 => [study.md](https://github.com/yeochaeeon/C_basic/blob/main/study.md)
 
