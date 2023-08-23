@@ -409,7 +409,12 @@ short s; // 이 구조체 덩어리 전체가 하나의 type 임.
 
 를 선언했을 때 ram에 어떻게 들어갈까?
 
-<pre> i 4바이트 자리를 차지하여 들어가고 그다음 char 1바이트 들어가고 char뒤에 padding 이 생기고 그 뒤에 short 2바이트 들어감.</pre>
+<pre>
+i가  4바이트 자리를 차지하여 들어가고
+그 다음 char 1바이트 들어가고
+char뒤에 padding 이 생기고 
+그 뒤에 short 2바이트 들어감.
+</pre>
 
 <hr>
 
@@ -422,9 +427,11 @@ long long l;
 
 }
 ```
-<pre> i 4바이트 차지 ,
-뒤에 padding  4바이트 존재, 
-그 뒤에 8 바이트 차지함.</pre>
+<pre> 
+i가  4바이트 차지,
+그 뒤에 padding  4바이트 존재, 
+그 뒤에 8 바이트 차지함.
+</pre>
 
 <hr>
 
@@ -436,12 +443,18 @@ int data[100];
 int size;
 int top;
 
-}
+}s;
 ```
-접근할 때 struct stack s;
+
+접근할 때 
+
+
+```c
+struct stack s;
 s.data[0];
 s.size ;
 s.top;
+```
 이런 식으로 접근할 수 있음.
 
 
