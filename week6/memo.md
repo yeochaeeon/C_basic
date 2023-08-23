@@ -250,7 +250,7 @@ int main( void )
 ```
 </details>
 	  
-##  array로 stack을 구현해보자
+##  Array로 Stack을 구현해보자.
 <details>
   <summary><code> 예시 skeleton code </code></summary>
   <div markdown="1">
@@ -407,7 +407,7 @@ short s; // 이 구조체 덩어리 전체가 하나의 type 임.
 
 ```
 
-를 선언했을 때 ram에 어떻게 들어갈까?
+를 선언했을 때 ram에 어떻게 들어가나? 
 
 <pre>
 i가  4바이트 자리를 차지하여 들어가고
@@ -445,7 +445,7 @@ int top;
 
 }s;
 ```
-
+으로 선언 후 ,
 접근할 때 
 
 
