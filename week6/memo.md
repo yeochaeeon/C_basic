@@ -395,7 +395,7 @@ int main( void )
 
 
 ## 구조체 
-```
+```c
 struct A
 {
 
@@ -413,7 +413,7 @@ short s; // 이 구조체 덩어리 전체가 하나의 type 임.
 
 <hr>
 
-```
+```c
 struct B
 {
 
@@ -422,10 +422,11 @@ long long l;
 
 }
 ```
-<pre>-> 일때도 i 4바이트 차지 , 뒤에 padding  4바이트 존재, 그뒤에 8 바이트 차지함.</pre>
+<pre> i 4바이트 차지 , 뒤에 padding  4바이트 존재, 그뒤에 8 바이트 차지함.</pre>
 
 <hr>
-```
+
+```c
 struct stack
 {
 
@@ -433,11 +434,12 @@ int data[100];
 int size;
 int top;
 
-};
+}
 ```
 접근할 때 struct stack s;
 s.data[0];
 s.size ;
 s.top;
+이런 식으로 접근할 수 있음.
 
 
