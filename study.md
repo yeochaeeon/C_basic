@@ -51,6 +51,8 @@
   * float :4
   * double :8
   * long double :   
+
+
 ```c
 #include <stdio.h>
 int main()
@@ -62,6 +64,7 @@ int main()
   return 0;
 }
 ```
+
 **위 코드에서 scanf 에만 &을 써주는 이유?** <br>
 -> 그런게 있음 뭔지 아는데 쓰기 귀찮다.. 그치만 중요한거라서 질문만 적어두기..
 
