@@ -264,7 +264,7 @@ int main( void )
 
 // push data to stack
 // data to update : stack, size, top_index
-voidpush( int new_data, int stack[], int *top_index, int *cur_size )
+void push( int new_data, int stack[], int *top_index, int *cur_size )
 {
 	// check that stack is full
 	if ( TODO )
