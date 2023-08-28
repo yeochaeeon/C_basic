@@ -35,7 +35,7 @@ Struct Node* prev;
 
 #include <stdio.h>
 #include <stdlib.h>
-Struct Node
+Struct Node //냐미
 {
 
     int data;
