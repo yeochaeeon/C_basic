@@ -253,7 +253,7 @@ int main( void )
 	  
 ##  Array로 Stack을 구현해보자.
 <details>
-  <summary><code> 예시 skeleton code </code></summary>
+  <summary><code> skeleton code </code></summary>
   <div markdown="1">
 	  
 ```c
