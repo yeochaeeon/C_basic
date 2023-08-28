@@ -1,4 +1,3 @@
-	  
 #include <stdio.h>
 
 #define MAX_STACK_SIZE 100
@@ -8,15 +7,14 @@
 void push( int new_data, int stack[], int *top_index, int *cur_size )
 {
 	// check that stack is full
-	if ( *cur_size >= MAX_STACK_SIZE )
+	if ( *cur_size>=MAX_STACK_SIZE )
 	{
 		printf( "Stack is full\n" );
 		return;
-	}
-  else {
+	} else { 
     *cur_size += 1;
-    *top_index += 1;
-    stack [*top_index] = new_data;
+    *top_index += 1; 
+    stack[*top_index] = new_data; 
   }
 
 	// push data to stack
@@ -29,11 +27,14 @@ void push( int new_data, int stack[], int *top_index, int *cur_size )
 void pop( int stack[], int *top_index, int *cur_size )
 {
 	// check that stack is empty
-	if ( cur_size == 0 )
+	if ( *cur_size<1 )
 	{
 		printf( "Stack is empty\n" );
 		return;
-	}
+	} else {
+    *cur_size -= 1;
+    *top_index -= 1;
+  }
 
 	// pop data from stack
 	// TODO
@@ -43,11 +44,13 @@ void pop( int stack[], int *top_index, int *cur_size )
 // data to update : none
 int top( int stack[], int top_index, int cur_size )
 {
-	if ( TODO )
+	if ( cur_size<1 )
 	{
 		printf( "Stack is empty\n" );
 		return 0;
-	}
+	} else {
+    return stack[top_index];
+  }
 
 	// TODO
 }
@@ -58,12 +61,16 @@ void print_stack( int stack[], int cur_size )
 {
 	printf( "----stack----\n" );
 	// check that stack is empty
-	if ( TODO )
+	if ( cur_size<1 )
 	{
 		printf( "Stack is empty\n" );
 		printf( "-------------\n" );
 		return;
-	}
+	} else {
+      for (int i=cur_size-1; i>=0; i--) {
+        printf("%d\n", stack[i]);
+      }
+  }
 	// print all stack data
 	// ex )
 	// ----stack----
